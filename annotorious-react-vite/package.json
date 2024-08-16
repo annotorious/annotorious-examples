@@ -1,0 +1,22 @@
+{
+  "name": "annotorious-react-vite",
+  "version": "1.0.0",
+  "description": "Minimal example for annotating a JPEG image using Annotorious, React and Vite.",
+  "main": "src/index.tsx",
+  "type": "module",
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1"
+  },
+  "dependencies": {
+    "@annotorious/react": "^3.0.0-rc.31",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^5.3.4"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  }
+}
